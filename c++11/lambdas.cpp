@@ -85,6 +85,5 @@ int main(int argc, char **argv)
     };
     printLocalVars();
 
-    // TODO
-    // [this] capture this
+    return 0;
 }
