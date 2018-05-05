@@ -8,14 +8,15 @@ int main(int argc, char **argv)
     //                                |--- Captures - capture parameters that can be used in the lambda function body (none in this example) 
     //                                |  -- Lambda function parameters
     //                                |  |
-    std::function<void()> simpleFn = []  ()                 //|
+    //                                |  |   |-- Return type. The return type may be omitted if the type is void, or if the compiler can deduce it.
+    std::function<void()> simpleFn = []  () -> void         //|
     {                                                       //| Function 
         std::cout << "Simple function called" << std::endl; //| body
     };                                                      //|
     simpleFn();
 
     //Lambda function that has no captures and takes two ints as input parameters
-    std::function<int(int, int)> sumFn = [](int a, int b)
+    std::function<int(int, int)> sumFn = [](int a, int b) -> int
     {  
         int sum = a + b;
         std::cout << std::endl << "The sum of " << a << " and " << b << " is " << sum << std::endl;
@@ -24,7 +25,8 @@ int main(int argc, char **argv)
     int result = sumFn(1, 2);
 
     //A lambda function that has no captures and takes two parameters
-    //A very good place to use the automatic type deduction of c++11
+    //A very good place to use the automatic type deduction of c++11.
+    //Note, that the return type of the lambda fn is omitted.
     auto substractFn = [](int a, int b)
     {  
         int substr = a - b;
