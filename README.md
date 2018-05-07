@@ -15,7 +15,7 @@ The purpose of this repoository is to illustrate how the C++ language has change
  * **Smart pointers - shared_ptr and unique_ptr**
  * **Constexpr**
  * **User defined literals**
- * **std::tuple**
+ * **Standard library types - std::tuple, std::array**
 
 **C++14 features**
 * **Function return type deduction**
