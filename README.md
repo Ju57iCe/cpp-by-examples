@@ -6,11 +6,11 @@ The purpose of this repoository is to illustrate how the C++ language has change
  - [x] **Lambdas**
  - [ ] **Deleted and Defaulted Functions**
  - [ ] **Automatic Type Deduction and decltype**
- - [ ] **Uniform initialization syntax**
+ - [x] **Uniform initialization syntax**
  - [ ] **Rvalue references**
  - [ ] **Deleted and Defaulted functions**
  - [ ] **nullptr**
- - [ ] **Delegating construcotrs**
+ - [ ] **Delegating construcotrs and initilializer_list type**
  - [ ] **New threads - execution thread, promises, futures, async, thread local storage**
  - [ ] **Smart pointers - shared_ptr and unique_ptr**
  - [ ] **Constexpr**
