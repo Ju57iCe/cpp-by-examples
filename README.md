@@ -4,6 +4,7 @@ The purpose of this repoository is to illustrate how the C++ language has change
 
 **C++11 features**
  - [x] **Lambdas**
+ - [x] **Initializer lists**
  - [ ] **Deleted and Defaulted Functions**
  - [ ] **Automatic Type Deduction and decltype**
  - [x] **Uniform initialization syntax**
