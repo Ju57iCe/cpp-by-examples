@@ -11,7 +11,7 @@ The purpose of this repoository is to illustrate how the C++ language has change
  - [ ] **Rvalue references**
  - [ ] **Deleted and Defaulted functions**
  - [ ] **nullptr**
- - [ ] **Delegating construcotrs and initilializer_list type**
+ - [ ] **Delegating constructоrs**
  - [ ] **New threads - execution thread, promises, futures, async, thread local storage**
  - [ ] **Smart pointers - shared_ptr and unique_ptr**
  - [ ] **Constexpr**
