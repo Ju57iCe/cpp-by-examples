@@ -1,4 +1,15 @@
 cmake_minimum_required (VERSION 3.7.2)
 project (cpp-by-examples)
 
+if ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "Clang")
+    message(STATUS "========================")
+    message(STATUS "Target compiler is Clang")
+    message(STATUS "========================")
+elseif ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU")
+    message(STATUS "========================")
+    message(STATUS "Target compiler is GCC")
+    message(STATUS "========================")
+endif()
+
 add_subdirectory (c++11)
+add_subdirectory (other_tricks)

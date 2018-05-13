@@ -46,13 +46,13 @@ int main(int argc, char **argv)
 {
     TCelsius t1 = GetTCelsius();
     SetTCelsius(t1);
-    
+
     TFahrenheit t2 = GetTFahrenheit();
-    
+
     //Attempting to convert from TFahrenheit to TCelsius will result in
     //compiler error
     //SetTCelsius(t2);
-    
+
     //Attempting to get a sum of temperatures will result in compiler error
     //saying there is no operator + (as expected)
     //t1 = t1 + t2;
