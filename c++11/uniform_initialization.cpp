@@ -7,8 +7,12 @@
 
 class A
 {
-    A(int x, int y, int z)
-    : m_MemberArray{x, y, z} // Uniform initialization of member variable
+public:
+    //Notice that the order of constructor params does not match
+    //the order of declaration of the member variables.
+    A(int x, int y, int z, std::string name)
+    : m_Name(name)  // Uniform initialization of member variable
+    , m_MemberArray{x, y, z}
     {
     };
 
@@ -18,6 +22,7 @@ class A
     }
 
 public:
+    std::string m_Name;
     int m_MemberArray[3];
 };
 
@@ -72,6 +77,17 @@ int main(int argc, char **argv)
 
     //Uniform initialization of an aggregate type
     window w = {'a', { {10, 20}, {20, 30} }, 1.4f};
+
+    //Note:
+    //If a class has non-default constructors, the order in which class members appear
+    //in the brace initializer is the order in which the corresponding parameters appear
+    //in the constructor, not the order in which the members are declared. Otherwise,
+    //if the type has no declared constructor, the order in which the members appear
+    //in the brace initializer is the same as the order in which they are declared.
+    //In this case, you can initialize as many of the public members as you wish,
+    //but you cannot skip any member.
+    A myClass(1, 2, 3, "foo");
+    A mySecondClass { 1, 2, 3, "foo" };
 
     return 0;
 }
