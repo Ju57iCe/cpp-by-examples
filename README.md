@@ -35,3 +35,6 @@ The purpose of this repoository is to illustrate how the C++ language has change
  - [ ] **Tuple addressing by type**
 
 **C++17 features**
+
+**Other tricks**
+ - [x] **Strong typization of similar types**

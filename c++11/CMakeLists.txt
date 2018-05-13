@@ -27,3 +27,6 @@ target_compile_options(initializer_list PRIVATE ${CPP11_COMPILER_FLAGS})
 
 add_executable (user_defined_literals user_defined_literals.cpp)
 target_compile_options(user_defined_literals PRIVATE ${CPP11_COMPILER_FLAGS})
+
+add_executable (strong_typization strong_typization.cpp)
+target_compile_options(strong_typization PRIVATE ${CPP11_COMPILER_FLAGS})
