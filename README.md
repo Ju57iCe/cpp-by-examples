@@ -1,23 +1,21 @@
 # cpp-by-examples
-[![Build Status](https://travis-ci.org/Ju57iCe/cpp-by-examples.svg?branch=master)](https://travis-ci.org/Ju57iCe/cpp-by-examples)
+**Travis build status** [![Build Status](https://travis-ci.org/Ju57iCe/cpp-by-examples.svg?branch=master)](https://travis-ci.org/Ju57iCe/cpp-by-examples)
 
 The purpose of this repoository is to illustrate how the C++ language has changed over the yeas and to demonstrate the newly added features in each standard.
 
 **C++11 features**
  - [x] **Lambdas**
  - [x] **Initializer lists**
- - [ ] **Deleted and Defaulted Functions**
- - [ ] **Automatic Type Deduction and decltype**
+ - [X] **Deleted and Defaulted Functions**
  - [x] **Uniform initialization syntax**
+ - [ ] **Automatic Type Deduction and decltype**
  - [ ] **Rvalue references**
- - [ ] **Deleted and Defaulted functions**
- - [ ] **nullptr**
  - [ ] **Delegating constructоrs**
  - [ ] **New threads - execution thread, promises, futures, async, thread local storage**
  - [ ] **Smart pointers - shared_ptr and unique_ptr**
  - [ ] **Constexpr**
  - [ ] **User defined literals**
- - [ ] **Standard library types - std::tuple, std::array**
+ - [ ] **Standard library types - std::tuple, std::array, nullptr**
 
 **C++14 features**
  - [ ] **Function return type deduction**
