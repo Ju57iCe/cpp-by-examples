@@ -30,8 +30,8 @@ CantCopyMe::~CantCopyMe() = default;
 //deleted functions. This is dony by delcaring myFn(T) deleted, and then
 //explicitly declaring the allowed usage of myFn with double .
 template < typename T >  
-void myFn(T) =delete;  
-void myFn(double param) { return; } 
+void myFn(T) = delete;
+void myFn(double param) { return; }
 
 
 int main(int argc, char **argv)

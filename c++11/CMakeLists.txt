@@ -22,3 +22,6 @@ target_compile_options(user_defined_literals PRIVATE ${CPP11_COMPILER_FLAGS})
 
 add_executable (default_deleted_functions default_deleted_functions.cpp)
 target_compile_options(default_deleted_functions PRIVATE ${CPP11_COMPILER_FLAGS})
+
+add_executable (delegated_constructors delegated_constructors.cpp)
+target_compile_options(delegated_constructors PRIVATE ${CPP11_COMPILER_FLAGS})
