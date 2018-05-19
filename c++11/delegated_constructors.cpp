@@ -46,24 +46,26 @@ private:
 //Be careful when using delegated constructors not to cause infinite recursion.
 //The following example will demonstrate running out of stack memory due to
 //infinite recursion.
-class BadExample
-{
-public:
-    // don't do this
-    BadExample()
-    : BadExample('a', 'b')
-    {
-    }
 
-    BadExample(int my_max, int my_min)
-    : BadExample()
-    {
-    }
-private:
-    char m_A;
-    char m_B;
-};
-//ToDo - demonstrate constructor recursion
+// Note: Clang recognises the delegated constructor recursion on compile
+// time and raises an error.
+// class BadExample
+// {
+// public:
+//     // don't do this
+//     BadExample()
+//     : BadExample('a', 'b')
+//     {
+//     }
+
+//     BadExample(int my_max, int my_min)
+//     : BadExample()
+//     {
+//     }
+// private:
+//     char m_A;
+//     char m_B;
+// };
 
 int main(int argc, char **argv)
 {
