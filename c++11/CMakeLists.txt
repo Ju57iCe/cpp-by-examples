@@ -25,3 +25,6 @@ target_compile_options(default_deleted_functions PRIVATE ${CPP11_COMPILER_FLAGS}
 
 add_executable (delegated_constructors delegated_constructors.cpp)
 target_compile_options(delegated_constructors PRIVATE ${CPP11_COMPILER_FLAGS})
+
+add_executable (std_array std_array.cpp)
+target_compile_options(std_array PRIVATE ${CPP11_COMPILER_FLAGS})
