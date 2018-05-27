@@ -29,7 +29,7 @@ CantCopyMe::~CantCopyMe() = default;
 //Another way to enforce strong typization is to combine a templates with
 //deleted functions. This is dony by delcaring myFn(T) deleted, and then
 //explicitly declaring the allowed usage of myFn with double .
-template < typename T >  
+template < typename T >
 void myFn(T) = delete;
 void myFn(double param) { return; }
 
