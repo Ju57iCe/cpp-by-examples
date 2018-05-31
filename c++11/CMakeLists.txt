@@ -31,3 +31,6 @@ target_compile_options(std_array PRIVATE ${CPP11_COMPILER_FLAGS})
 
 add_executable (std_tuple std_tuple.cpp)
 target_compile_options(std_tuple PRIVATE ${CPP11_COMPILER_FLAGS})
+
+add_executable (range_based_loops range_based_loops.cpp)
+target_compile_options(range_based_loops PRIVATE ${CPP11_COMPILER_FLAGS})
