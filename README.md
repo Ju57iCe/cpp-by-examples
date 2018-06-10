@@ -13,9 +13,10 @@ The purpose of this repoository is to illustrate how the C++ language has change
 - [X] **User defined literals**
 - [X] **Delegated constructоrs**
 - [X] **Standard library types - std::tuple, std::array**
+- [X] **Range based loops**
+- [ ] **Range based loops for user defined types**
 - [ ] **Automatic Type Deduction and decltype**
 - [ ] **Rvalue references**
-- [ ] **Range based loops**
 - [ ] **New threads - execution thread, promises, futures, async, thread local storage**
 - [ ] **Smart pointers - shared_ptr and unique_ptr**
 - [ ] **Constexpr**
