@@ -34,3 +34,6 @@ target_compile_options(std_tuple PRIVATE ${CPP11_COMPILER_FLAGS})
 
 add_executable (range_based_loops range_based_loops.cpp)
 target_compile_options(range_based_loops PRIVATE ${CPP11_COMPILER_FLAGS})
+
+add_executable (fixed_witdth_integers fixed_witdth_integers.cpp)
+target_compile_options(fixed_witdth_integers PRIVATE ${CPP11_COMPILER_FLAGS})

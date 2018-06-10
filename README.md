@@ -14,6 +14,7 @@ The purpose of this repoository is to illustrate how the C++ language has change
 - [X] **Delegated constructоrs**
 - [X] **Standard library types - std::tuple, std::array**
 - [X] **Range based loops**
+- [X] **Fixed width integers**
 - [ ] **Range based loops for user defined types**
 - [ ] **Automatic Type Deduction and decltype**
 - [ ] **Rvalue references**
@@ -21,7 +22,7 @@ The purpose of this repoository is to illustrate how the C++ language has change
 - [ ] **Smart pointers - shared_ptr and unique_ptr**
 - [ ] **Constexpr**
 - [ ] **Variadic templates**
-- [ ] **nullptr and fixed size ints/uints**
+- [ ] **nullptr**
 
 ## C++14 features
 
