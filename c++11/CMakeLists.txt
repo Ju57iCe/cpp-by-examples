@@ -37,3 +37,6 @@ target_compile_options(range_based_loops PRIVATE ${CPP11_COMPILER_FLAGS})
 
 add_executable (fixed_witdth_integers fixed_witdth_integers.cpp)
 target_compile_options(fixed_witdth_integers PRIVATE ${CPP11_COMPILER_FLAGS})
+
+add_executable (unique_ptr unique_ptr.cpp)
+target_compile_options(unique_ptr PRIVATE ${CPP11_COMPILER_FLAGS})

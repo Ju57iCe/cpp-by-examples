@@ -15,11 +15,12 @@ The purpose of this repository is to illustrate how the C++ language has changed
 - [X] **Standard library types - std::tuple, std::array**
 - [X] **Range based loops**
 - [X] **Fixed width integers**
+- [X] **std::unique_ptr**
+- [ ] **std::shared_ptr and weak_ptr**
 - [ ] **Range based loops for user defined types**
 - [ ] **Automatic Type Deduction and decltype**
 - [ ] **Rvalue references**
 - [ ] **New threads - execution thread, promises, futures, async, thread local storage**
-- [ ] **Smart pointers - shared_ptr and unique_ptr**
 - [ ] **Constexpr**
 - [ ] **Variadic templates**
 - [ ] **nullptr**
