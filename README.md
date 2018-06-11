@@ -43,6 +43,13 @@ The purpose of this repository is to illustrate how the C++ language has changed
 - [ ] **Tuple addressing by type**
 
 ## C++17 features
+- [ ] **Structured bindings**
+- [ ] **Init statement for if and switch**
+- [ ] **Constexpr if**
+- [ ] **Fold expressions**
+- [ ] **Template argument deduction for class templates**
+- [ ] **Inline variables**
+
 
 ## Other tricks
 
