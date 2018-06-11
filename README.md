@@ -2,7 +2,7 @@
 
 **Travis status** [![Build Status](https://travis-ci.org/Ju57iCe/cpp-by-examples.svg?branch=master)](https://travis-ci.org/Ju57iCe/cpp-by-examples)
 
-The purpose of this repoository is to illustrate how the C++ language has changed over the years and to demonstrate the newly added features in each standard.
+The purpose of this repository is to illustrate how the C++ language has changed over the years and to demonstrate the newly added features in each standard.
 
 ## C++11 features
 
